@@ -12,7 +12,7 @@ jobs:
       - name: 'Checkout codes'
         uses: actions/checkout@v1
       - name: 'Get Wakeup'
-        run: bash /.github/workflows/wakeup.sh
+        run: bash .github/workflows/wakeup.sh
       - name: 'Get Date'
         run: echo "REPORT_DATE=$(TZ=':Asia/Shanghai' date '+%Y-%m-%d %T')" >> $GITHUB_ENV
  
