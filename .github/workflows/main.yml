@@ -3,7 +3,7 @@ name: 'GitHub Actions wakeup Bot'
 on:
   push:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 1 * * *'
  
 jobs:
   bot:
